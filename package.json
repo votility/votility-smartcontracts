@@ -1,6 +1,7 @@
 {
-  "name": "@votilityprotocol/contracts",
-  "version": "1.0.0",
+  "name": "@votilityprotocol/smartcontracts",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
   "main": "truffle-config.js",
   "directories": {
