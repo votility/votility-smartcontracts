@@ -23,7 +23,7 @@ module.exports = {
     },
 
     ropsten: {
-        provider: () => new HDWalletProvider(mnemonic, ),
+        provider: () => new HDWalletProvider(mnemonic, rpcUrl),
         network_id: 3,       // Ropsten's id
         gas: 5500000,        // Ropsten has a lower block limit than mainnet
         confirmations: 1,    // # of confs to wait between deployments. (default: 0)
